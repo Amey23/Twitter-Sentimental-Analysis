@@ -19,5 +19,7 @@ In order to fetch tweets through Twitter API, one needs to register an App throu
 We follow these 3 major steps in our program:
 
 •	Authorize twitter API client.
+
 •	Make a GET request to Twitter API to fetch tweets for a particular query.
+
 •	Parse the tweets. Find the polarity_score respective of the tweet. Classify each tweet as positive, negative or neutral.
